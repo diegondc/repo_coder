@@ -1,0 +1,52 @@
+@import "comunidadScss";
+
+// fuenteNovedades{
+//     font-weight: bold;
+// }
+
+.novedadesNota{
+    font-weight: bold;
+}
+
+/*.asideTexto{
+    background-color: white;
+} */
+
+.textoAutor{
+    font-style: italic;
+}
+
+/*.asideSpotify{
+    background-color: white;
+} */
+
+.textoSpotify{
+    font-style: italic;
+}
+
+.logoSpotify{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*.textoSemanal{
+    text-decoration: underline;
+}
+
+.spotify{
+    text-decoration: underline;
+}*/
+
+aside{
+    aside{
+    background-color: white;
+        h2{
+            text-decoration: underline;
+        }
+    }
+}
+
+$fuenteGeneral: rgb(211, 201, 90);
+

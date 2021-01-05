@@ -1,0 +1,41 @@
+$fuenteTablas: rgb(221, 201, 90);
+
+.mainComunidad{
+    background-color: #731b07;
+}
+
+.tituloComunidad{
+    color: $fuenteTablas;
+}
+
+.textoComunidad{
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.tituloValorant {
+     color: $fuenteTablas;
+}
+
+.tituloCS-GO{
+    color: $fuenteTablas;
+}
+
+.tablaValorant{
+    background-color: white;
+}
+
+.tablaCS-GO{
+    background-color: white;
+}
+
+.listaComunidad{
+    color: $fuenteTablas;
+    font-size: 30px;
+        .juegoLista{
+            color: white;
+            font-size: 20px;
+        }
+}

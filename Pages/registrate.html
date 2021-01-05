@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrate en Valhalla Games y recibí todas las novedades">
+    <meta name="keywords" content="PORTAL, GAMER, GAMING, PORTAL GAMER, NOTICIAS, NOVEDADES, JUEGOS, VALORANT, LATAM, ARGENTINA, REGISTRO, FORMULARIO">
+    <title>Valhalla Games - Registrate</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../Images/Mesa_de_ trabajo_3_copia_2.png" alt="Logo Valhalla Games" class="logo"></a>
+        <nav class="barraNavFlex">
+            <ul class="barraNav">
+                <li class="barraNav"><a href="../index.html">Inicio</a></li>
+                <li class="barraNav"><a href="novedades.html">Novedades</a></li>
+                <li class="barraNav"><a href="comunidad.html">Comunidad</a></li>
+                <li class="barraNav"><a href="conocenos.html">Conocenos</a></li>
+                <li class="barraNav"><a href="registrate.html">Registrate</a></li>
+            </ul>
+        </nav>
+        <img src="../Images/MedievalTavern2_Screenshot_03-1920x1080-eaac9ee5d4c53c0ecc0c114a23db25c9.png" alt="Imagen fondo Taberna Medieval">
+        <h2 class="fraseHeader">Bienvenido a tu taberna gamer, viajero</h2>
+    </header>
+    
+    <main>
+        
+        <h1>Completa tu formulario de Registro</h1>
+        <!-- formulario Registro -->
+
+        <form action="" class="formulario">
+            <fieldset>
+                <legend>Formulario de Registro</legend>
+                <input type="text" placeholder="Ingresa tu nombre" name="Nombre"><br>
+                <input type="text" placeholder="Ingresa tu apellido" name="Apellido"><br>
+                <input type="mail" placeholder="Ingresa tu mail" name="Email"><br>
+                <input type="password" placeholder="Ingresa tu contraseña" name="Contraseña"><br><br>
+
+                <p>Sos mayor de 18 años?</p>
+                <label for="edad_mayor">Si</label>
+                <input type="radio" name="edad" value="Si" id="edad_mayor">
+                <label for="edad_menor">No</label>
+                <input type="radio" name="edad" value="No" id="edad_menor">
+                
+                <p>Juego de preferencia</p>
+                <label for="valorant">Valorant</label>
+                <input type="checkbox" name="valorant" value="valorant" id="valorant"><br>
+                <label for="cs-go">CS-Go</label>
+                <input type="checkbox" name="cs-go" value="cs-go" id="cs-go"><br>
+                <label for="among_us">Among Us</label>
+                <input type="checkbox" name="among_us" value="among_us" id="among_us">
+                
+
+                <label for="continente">Continente</label>
+                <select name="continente" id="continente">
+                    <option value="America">América</option>
+                    <option value="Europa">Europa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Africa">África</option>
+                    <option value="Oceania">Oceanía</option>
+                </select><br><br>
+
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <img src="../images/Mesa_de_trabajo_3.png" alt="Valhalla Games Logo">
+    
+        <ul class="footerRedes">       <!--Colocar en los <p> los href para los links de las redes-->
+            <li><img src="images/iconfinder_twitch_3009563.png" alt="Logo Twitch" class="logosFooter" width="30px" height="30px"></li>
+            <li><p>Valhalla.gamesok</p></li>
+            <li><img src="images/iconfinder_isntagram__social__media_icon_2986198.png" alt="Logo Instagram" class="logosFooter" width="30px" height="30px"></li>
+            <li><p>Valhalla.gamesok</p></li>
+            <li><img src="images/iconfinder_twitter__social__media_icons_2986205.png" alt="Logo Twitter" class="logosFooter" width="30px" height="30px"></li>
+            <li><p>Valhalla.gamesok</p></li>
+            <li><img src="images/iconfinder_youtube__social_media__icons_2986210.png" alt="Logo Youtube" class="logosFooter" width="30px" height="30px"></li>
+            <li><p>Valhalla.gamesok</p></li>
+        </ul>
+    </footer>
+</body>
+</html>

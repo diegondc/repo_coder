@@ -1,0 +1,63 @@
+.mainComunidad {
+  background-color: #731b07; }
+
+.tituloComunidad {
+  color: #ddc95a; }
+
+.textoComunidad {
+  color: black;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: underline; }
+
+.tituloValorant {
+  color: #ddc95a; }
+
+.tituloCS-GO {
+  color: #ddc95a; }
+
+.tablaValorant {
+  background-color: white; }
+
+.tablaCS-GO {
+  background-color: white; }
+
+.listaComunidad {
+  color: #ddc95a;
+  font-size: 30px; }
+  .listaComunidad .juegoLista {
+    color: white;
+    font-size: 20px; }
+
+.novedadesNota {
+  font-weight: bold; }
+
+/*.asideTexto{
+    background-color: white;
+} */
+.textoAutor {
+  font-style: italic; }
+
+/*.asideSpotify{
+    background-color: white;
+} */
+.textoSpotify {
+  font-style: italic; }
+
+.logoSpotify {
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: right; }
+
+/*.textoSemanal{
+    text-decoration: underline;
+}
+
+.spotify{
+    text-decoration: underline;
+}*/
+aside aside {
+  background-color: white; }
+  aside aside h2 {
+    text-decoration: underline; }

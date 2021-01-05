@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*GENERALES*/
+body{
+    background-color: #012e40; 
+} 
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 80px;
+}   
+
+.titulo{
+    color: rgb(221, 197, 61);
+    font-family: Fondamento;
+}
+
+.logo{
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 25%;
+    margin-left: 10px;
+    margin-top: -35px;
+}
+
+.barraNavFlex{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.barraNav{
+    display: inline-block;
+    font-size: 35px;
+}
+
+.barraNav li a{
+    text-decoration: none;
+    color: #f2cf63;
+    padding-right: 20px;
+}
+
+.barraNav li:hover{
+    background-color: #731b07;
+}
+
+.imagenFondo{
+    max-width: 100%;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fraseHeader{
+    color: rgb(221, 201, 90);
+    font-family: Fondamento;
+    font-style: italic;
+    text-align: right;
+    font-size: 400%;
+    background-position: bottom;
+    position: relative !important;
+    right: 450px !important;
+    bottom: 500px !important;
+    margin-bottom: -40px !important;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    /* margin-top: 150px; */
+}
+
+.footerLogo{
+    width: 10%;
+    margin-right: 600px;
+}
+
+.footerRedes{
+    margin-top: 30px;
+    list-style-type: none;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: repeat(4, 30px);
+    column-gap: 5px;
+    row-gap: 10px;
+    color: #f2cf63;
+    align-items: center;
+}
+
+.logosFooter{
+    background-color:  #f2cf63;
+    margin-top: -18px;
+}
+
+.bodyNovedades{
+    background-color: #f2cf63;
+}
+
+
+
+/*index*/
+
+.bienvenida{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.tituloBienvenida{
+    position: relative;
+    color: #f2cf63;
+    margin-left: 50px;
+}
+
+.textoBienvenida{
+    width: 400px;
+    font-size: 200%;
+    position: relative;
+    color: white;
+    margin-left: 50px;   
+}
+
+.imagenBienvenida{
+    position: relative;
+    left: 150px;
+}
+
+.seccionNovedades{
+    background-color: #731b07;
+    border-style: none;
+}
+
+.novedadesTitulo{
+    color: rgb(221, 201, 90);
+    padding-left: 50px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.textoNovedades{
+    color: white;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.logoDiario{
+    transform: translate(0px, 5px);
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 0.65s;
+    animation-delay: 0s;
+}
+
+@keyframes logo{
+    0%{ 
+        transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(0px, -2px);
+    }
+    50%{
+        transform: translate(0px, -2px);
+    }
+    75%{
+        transform: translate(0px, 2px);
+    }
+    100%{
+        transform: translate(0px, 2px);
+    }
+}
+
+#gridNovedades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    grid-template-areas: 
+        "nota1 nota1 nota1"
+        "nota2 nota3 nota4";
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+}
+
+#gridNovedades .destacadoGrid{
+    grid-area: nota1;
+}
+
+#gridNovedades .nota2Grid{
+    grid-area: nota2;
+}
+
+#gridNovedades .nota3Grid{
+    grid-area: nota3;
+}
+
+#gridNovedades .nota4Grid{
+    grid-area: nota4;
+}
+
+.novedades{
+    border: inset 1px black ;
+    margin: 1px 0px 5px 0px;
+    background-image: linear-gradient(to right, white, #731b07);
+}
+
+section article h3{
+    font-weight: bold;
+    color: #a52a2a;
+    padding-left: 50px;
+}
+
+.novedadesNota{
+    color: rgb(0, 0, 0);
+    padding-left: 50px;
+}
+
+.asideGeneral{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+/* .asideTexto{
+    background-color: white;
+} */
+
+/* .asideSpotify{
+    background-color: white;
+} */
+
+.textoSemanal{
+    color: #731b07;
+}
+
+.spotify{
+    color: #731b07;
+}
+
+.newsletter{
+    margin: 10px 0px 10px 0px;
+    /* height: 100px; */
+    background-color: white;
+}
+
+/* .newsletter:hover{
+    transform: scale(1, 1.05);
+} */
+
+/* .fraseNewsletter{
+    
+} */
+
+.botonNewsletter{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+/*novedades*/
+
+.tituloNovedades{
+    text-align: center;
+    font-family: Fondamento;
+}
+
+
+
+
+/*comunidad*/
+
+.tituloComunidad{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tituloValorant{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tablaValorant{
+    margin:auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.tituloCS-GO{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tablaCS-GO{
+    margin:auto;
+    font-size: 20px;
+}
+
+/*conocenos*/
+
+/*registrate*/
+
+.formulario{
+    font-weight: lighter;
+    font-size: 16px;
+}
