@@ -1,4 +1,5 @@
 $fuenteTablas: rgb(221, 201, 90);
+$tamanioFuente: 30px;
 
 .mainComunidad{
     background-color: #731b07;
@@ -10,7 +11,7 @@ $fuenteTablas: rgb(221, 201, 90);
 
 .textoComunidad{
     color: black;
-    font-size: 30px;
+    font-size: $tamanioFuente;
     text-align: right;
     text-decoration: underline;
 }
@@ -33,9 +34,9 @@ $fuenteTablas: rgb(221, 201, 90);
 
 .listaComunidad{
     color: $fuenteTablas;
-    font-size: 30px;
+    font-size: $tamanioFuente;
         .juegoLista{
             color: white;
-            font-size: 20px;
+            font-size: $tamanioFuente - 10;
         }
 }
