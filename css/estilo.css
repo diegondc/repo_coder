@@ -10,6 +10,7 @@ body{
 } 
 
 .header{
+    position: sticky;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 80px;
@@ -29,7 +30,7 @@ body{
 }
 
 .barraNavFlex{
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -67,11 +68,13 @@ body{
     font-size: 400%;
     background-position: top;
     position: relative !important;
-    right: 450px !important;
+     right: 450px !important;
     bottom: 250px !important;
-    margin-bottom: -40px !important;
+    margin-bottom: -40px !important; 
     justify-items: center;
     align-items: center;
+    /* position: static;
+    text-align: center; */
 }
 
 .footer{
@@ -121,7 +124,7 @@ body{
 .tituloBienvenida{
     position: relative;
     color: #f2cf63;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .textoBienvenida{
@@ -129,12 +132,12 @@ body{
     font-size: 200%;
     position: relative;
     color: white;
-    margin-left: 50px;   
+    margin-left: 60px;   
 }
 
 .imagenBienvenida{
     position: relative;
-    left: 150px;
+    left: 250px;
     margin-bottom: 10px;
 }
 
@@ -145,14 +148,14 @@ body{
 
 .novedadesTitulo{
     color: rgb(221, 201, 90);
-    padding-left: 50px;
+    padding-left: 60px;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
 .textoNovedades{
     color: white;
-    padding-left: 50px;
+    padding-left: 60px;
     font-size: 30px;
 }
 
@@ -277,6 +280,7 @@ section article h3{
 
 .spotify{
     color: #731b07;
+    text-align: center;
 }
 
 .newsletter{
@@ -304,13 +308,23 @@ section article h3{
 
 
 
+
+
 /*novedades*/
 
 .tituloNovedades{
     text-align: center;
     font-family: Fondamento;
+    color: #f2cf63;
 }
 
+.destacadoSemanal{
+    color: #f2cf63;
+}
+
+.textoNoticia{
+    color: black;
+}
 
 
 
@@ -344,9 +358,29 @@ section article h3{
 
 /*conocenos*/
 
+.tituloConocenos{
+    color: #f2cf63;
+}
+
+.textoConocenos{
+    color: white;
+}
+
+
+
+
 /*registrate*/
 
 .formulario{
     font-weight: lighter;
     font-size: 16px;
+    background-color: white;
+    margin-bottom: 210px;
+}
+
+.textoFormulario{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
 }

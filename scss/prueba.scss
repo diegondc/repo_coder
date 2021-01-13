@@ -15,6 +15,7 @@ $tamanioLogos: 40px;
 
 .textoAutor{
     font-style: italic;
+    height: 350px;
 }
 
 /*.asideSpotify{
@@ -47,6 +48,22 @@ aside{
             text-decoration: underline;
         }
     }
+}
+
+.asideTexto{
+    background-image: url(../Images/unique-viking-warrior-reading-book-vector-logo-template-unique-library-concept-viking-warrior-cartoon-reading-book-vector-130894126.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.asideSpotify{
+    background-image: url(../Images/mauricio-morali-bragi-god-of-music-and-poetry-lores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.publicitarTexto{
+    text-align: bottom;
 }
 
 $fuenteGeneral: rgb(211, 201, 90);

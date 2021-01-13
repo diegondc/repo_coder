@@ -36,7 +36,8 @@
     background-color: white;
 } */
 .textoAutor {
-  font-style: italic; }
+  font-style: italic;
+  height: 350px; }
 
 /*.asideSpotify{
     background-color: white;
@@ -61,3 +62,16 @@ aside aside {
   background-color: white; }
   aside aside h2 {
     text-decoration: underline; }
+
+.asideTexto {
+  background-image: url(../Images/unique-viking-warrior-reading-book-vector-logo-template-unique-library-concept-viking-warrior-cartoon-reading-book-vector-130894126.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.asideSpotify {
+  background-image: url(../Images/mauricio-morali-bragi-god-of-music-and-poetry-lores.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.publicitarTexto {
+  text-align: bottom; }
