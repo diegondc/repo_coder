@@ -27,6 +27,7 @@ body{
     width: 25%;
     margin-left: 10px;
     margin-top: -35px;
+    margin-right: 600px;
 }
 
 .barraNavFlex{
@@ -69,7 +70,7 @@ body{
     background-position: top;
     position: relative !important;
      right: 450px !important;
-    bottom: 250px !important;
+    bottom: 350px !important;
     margin-bottom: -40px !important; 
     justify-items: center;
     align-items: center;
@@ -323,7 +324,7 @@ section article h3{
 }
 
 .textoNoticia{
-    color: black;
+    color: whitesmoke;
 }
 
 

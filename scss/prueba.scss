@@ -66,5 +66,62 @@ aside{
     text-align: bottom;
 }
 
+.seccionFanArt{
+    margin-top: 15px;
+    background-color: #731b07;
+    h2{
+        color: white;
+        text-align: center;
+
+    }
+    ul{
+        padding-left: 3px;
+        padding-right: 3px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "fanArt1 fanArt2 fanArt3"
+                             "fanFoto1 fanFoto2 fanFoto3";
+    }
+}
+
+.fanArt{
+    border: inset 1px black;
+    margin: 3px 5px 3px;
+}
+
+.fanArt1{
+    grid-area: fanArt1;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fanArt2{
+    grid-area: fanArt2;
+    
+}
+
+.fanArt3{
+    grid-area: fanArt3;
+}
+
+.fanFoto1{
+    grid-area: fanFoto1;
+    background-image: url(../Images/female_viking_warrior_1_by_raphtor_d8q4i9j-fullview.jpg);
+}
+
+.fanFoto2{
+    grid-area: fanFoto2;
+    background-image: url(../Images/f456d8a0a6503a4b2ca51e60d5295e51.png);
+}
+
+.fanFoto3{
+    grid-area: fanFoto3;
+}
+
+
+
 $fuenteGeneral: rgb(211, 201, 90);
 
