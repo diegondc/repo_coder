@@ -221,7 +221,6 @@ body{
 }
 
 .destacadoGrid{
-    /* background-image: linear-gradient(to right, white, transparent, transparent, transparent); */
     background-image: url(../Images/Back-4-Blood-Reveals-Concept-Art.jpg);
     background-repeat: no-repeat;
     background-size: 2080px 520px;
@@ -252,7 +251,7 @@ section article h3{
     padding-left: 20px;
 }
 
-/* @media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ falta completar
 
 } */
 
@@ -285,18 +284,10 @@ section article h3{
 }
 
 .newsletter{
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 10px 0px;
     /* height: 100px; */
     background-color: white;
 }
-
-/* .newsletter:hover{
-    transform: scale(1, 1.05);
-} */
-
-/* .fraseNewsletter{
-    
-} */
 
 .botonNewsletter{
     margin-left: 5px;

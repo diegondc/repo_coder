@@ -74,7 +74,7 @@ aside{
         text-align: center;
 
     }
-    ul{
+    div{
         padding-left: 3px;
         padding-right: 3px;
         list-style: none;
@@ -86,39 +86,57 @@ aside{
     }
 }
 
-.fanArt{
-    border: inset 1px black;
-    margin: 3px 5px 3px;
+ .fanArts{
+     justify-items: auto;
+     padding-bottom: 10px;    
 }
 
 .fanArt1{
     grid-area: fanArt1;
-    
-    background-repeat: no-repeat;
-    background-size: contain;
+    color: black;
+    font-size: 25px;
 }
 
 .fanArt2{
     grid-area: fanArt2;
-    
+    color: black;
+    font-size: 25px;
 }
 
 .fanArt3{
     grid-area: fanArt3;
+    color: black;
+    font-size: 25px;
 }
 
 .fanFoto1{
     grid-area: fanFoto1;
+    height: 1000px;
+    width: 620px;
+    border: inset 1px black;
     background-image: url(../Images/female_viking_warrior_1_by_raphtor_d8q4i9j-fullview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fanFoto2{
     grid-area: fanFoto2;
+    height: 1000px;
+    width: 620px;
+    border: inset 1px black;
     background-image: url(../Images/f456d8a0a6503a4b2ca51e60d5295e51.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fanFoto3{
     grid-area: fanFoto3;
+    height: 1000px;
+    width: 620px;
+    border: inset 1px black;
+    background-image: url(../Images/florentino-iv-cuevas-for-honor-viking-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
