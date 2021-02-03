@@ -43,7 +43,8 @@
     background-color: white;
 } */
 .textoSpotify {
-  font-style: italic; }
+  font-style: italic;
+  height: 350px; }
 
 .logoSpotify {
   height: 20px;
@@ -76,63 +77,43 @@ aside aside {
 .publicitarTexto {
   text-align: bottom; }
 
+.publicitarMusica {
+  text-align: bottom;
+  font-weight: bold;
+  color: white; }
+
 .seccionFanArt {
   margin-top: 15px;
   background-color: #731b07; }
   .seccionFanArt h2 {
-    color: white;
+    color: #f2cf63;
     text-align: center; }
   .seccionFanArt div {
     padding-left: 3px;
     padding-right: 3px;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-    grid-template-areas: "fanArt1 fanArt2 fanArt3" "fanFoto1 fanFoto2 fanFoto3"; }
+    grid-template-areas: "fanArt1" "fanFoto1"; }
 
 .fanArts {
   justify-items: auto;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  text-align: center;
+  justify-content: center; }
 
 .fanArt1 {
   grid-area: fanArt1;
-  color: black;
-  font-size: 25px; }
-
-.fanArt2 {
-  grid-area: fanArt2;
-  color: black;
-  font-size: 25px; }
-
-.fanArt3 {
-  grid-area: fanArt3;
-  color: black;
+  color: white;
   font-size: 25px; }
 
 .fanFoto1 {
+  justify-content: center;
   grid-area: fanFoto1;
   height: 1000px;
-  width: 620px;
+  max-width: 100%;
   border: inset 1px black;
   background-image: url(../Images/female_viking_warrior_1_by_raphtor_d8q4i9j-fullview.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.fanFoto2 {
-  grid-area: fanFoto2;
-  height: 1000px;
-  width: 620px;
-  border: inset 1px black;
-  background-image: url(../Images/f456d8a0a6503a4b2ca51e60d5295e51.png);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.fanFoto3 {
-  grid-area: fanFoto3;
-  height: 1000px;
-  width: 620px;
-  border: inset 1px black;
-  background-image: url(../Images/florentino-iv-cuevas-for-honor-viking-1.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
