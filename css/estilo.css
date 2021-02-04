@@ -403,6 +403,7 @@ section article h3{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #f2cf63;
 }
 
 .tablaLOL{
@@ -414,6 +415,10 @@ section article h3{
 }
 
 /*conocenos*/
+
+.seccionConocenos{
+    background-color: #731b07;
+}
 
 .tituloConocenos{
     color: #f2cf63;
@@ -427,6 +432,10 @@ section article h3{
 
 
 /*registrate*/
+
+.mainRegistrate{
+    background-color: #731b07;
+}
 
 .formulario{
     font-weight: lighter;
