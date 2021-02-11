@@ -140,12 +140,18 @@ body{
     }
 }
 
-@media (max-width: 415px){
+@media (max-width: 450px){
+    .footerRedes{
+        margin-top: 60px;
+        grid-template-columns: 20px 1fr;
+        grid-template-rows: repeat(4, 20px);
+    }
     .linksFooter{
-        font-size: 9px;
+        font-size: 10px;
     }
     .footerRedes{
-        row-gap: 2px;
+        column-gap: 3px;
+        row-gap: 1px;
     }
 }
 
