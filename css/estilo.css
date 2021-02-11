@@ -140,6 +140,15 @@ body{
     }
 }
 
+@media (max-width: 415px){
+    .linksFooter{
+        font-size: 9px;
+    }
+    .footerRedes{
+        row-gap: 2px;
+    }
+}
+
 .logosFooter{
     background-color:  #f2cf63;
     margin-top: -18px;
@@ -149,6 +158,14 @@ body{
     .logosFooter{
         width: 20px;
         height: 20px;
+    
+    }
+}
+
+@media (max-width: 415px){
+    .logosFooter{
+        width: 10px;
+        height: 10px;
     
     }
 }
