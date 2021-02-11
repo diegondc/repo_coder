@@ -126,9 +126,22 @@ body{
     align-items: center;
 }
 
+@media (max-width: 576px){
+    .linksFooter{
+        font-size: 12px;
+    }
+}
+
 .logosFooter{
     background-color:  #f2cf63;
     margin-top: -18px;
+}
+
+@media (max-width: 576px){
+    .logosFooter{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .bodyNovedades{
