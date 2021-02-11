@@ -24,9 +24,13 @@ body{
 .logo{
     /* background-repeat: no-repeat; */
     /* background-position: left top; */
-    width: 25%;
-    margin-top: -35px;
+    /* max-width: 25%;
+    margin-top: -35px; */
     /* margin-right: 600px; */
+    
+    max-width: 100%;
+    height: 150px;
+    margin-top: -40px;
 }
 
 .barraNavFlex{
@@ -37,9 +41,23 @@ body{
     justify-content: flex-end; 
 }
 
+@media (max-width: 1050px) {
+    .barraNavFlex{
+        margin-top: 0px;
+    }
+}
+
 .barraNav{
     display: inline-block;
     font-size: 35px;
+}
+
+@media (max-width: 1050px) {
+    .barraNav{
+        font-size: 12px;
+        display: block;
+        margin-bottom: 2px;
+    }
 }
 
 .barraNav li a{
@@ -83,11 +101,15 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    /* margin-top: 150px; */
+    position: static;
+    width: 100%;
+    bottom: 0;
 }
 
 .footerLogo{
-    width: 10%;
+    /* width: 10%; */
+    max-width: 100%;
+    height: 196px;
     /* margin-right: 200px; */
 }
 
@@ -117,33 +139,35 @@ body{
 
 /*index*/
 
-.bienvenida{
-    display: flex;
+/* .bienvenida{
+    /* display: flex;
     flex-flow: row wrap; 
-    justify-content: space-between;
-}
+    justify-content: space-between; 
+} */
 
 .tituloBienvenida{
-    /* position: relative; */
     color: #f2cf63;
-    margin-left: 60px;
+    text-align: center;
+    font-size: 400%;
 }
 
 .textoBienvenida{
-    width: 400px;
+    text-align: center;
+    /* width: 400px; */
     font-size: 200%;
     /* position: relative; */
     color: white;
-    margin-left: 60px;   
+    /* margin-left: 60px;*/
+    margin-bottom: 60px;
 }
 
-.imagenBienvenida{
+/* .imagenBienvenida{
     /* position: relative; */
-    /* left: 250px; */
+    /* left: 250px; 
     margin-bottom: 10px;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .seccionNovedades{
     background-color: #731b07;
@@ -157,10 +181,24 @@ body{
     font-size: 40px;
 }
 
+@media (max-width: 768px){
+    .novedadesTitulo{
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
 .textoNovedades{
     color: white;
     padding-left: 60px;
     font-size: 30px;
+}
+
+@media (max-width: 768px){
+    .textoNovedades{
+        padding-left: 0px;
+        text-align: center;
+    }
 }
 
 .logoDiario{
@@ -201,6 +239,17 @@ body{
     grid-row-gap: 15px;
 }
 
+@media (max-width: 992px){
+    #gridNovedades{
+        grid-template-rows: 520px 250px;
+    }
+}
+
+@media (max-width: 576px){
+    #gridNovedades{
+        grid-template-rows: 350px 200px;
+    }
+}
 
 #gridNovedades .destacadoGrid{
     grid-area: nota1;
@@ -224,29 +273,40 @@ body{
 }
 
 .destacadoGrid{
+    max-width: 100%;
+    height: auto;
     background-image: url(../Images/Back-4-Blood-Reveals-Concept-Art.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: 2080px 520px;
-    
+    /* background-size: auto; */
+    /* background-size: 2080px 520px; */ 
 }
 
 .nota2Grid{
     background-image: url(../Images/1590401763_493728_1590401834_noticia_normal_recorte1.jpg);
     background-repeat: no-repeat;
-    background-size: 680px 400px;
+    /* background-size: 680px 400px; */
+    background-size: 100% 100%;
 }
+
+
 
 .nota3Grid{
     background-image: url(../Images/840_560.jpg);
     background-repeat: no-repeat;
-    background-size: 680px 400px;
+    /* background-size: 680px 400px; */
+    background-size: 100% 100%;
 }
+
 
 .nota4Grid{
     background-image: url(../Images/15537190644260.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    /* background-size: cover; */
 }
+
+
 
 section article h3{
     font-weight: bold;
@@ -254,9 +314,33 @@ section article h3{
     padding-left: 20px;
 }
 
+@media (max-width: 992px){
+    .tituloNovedadesIndex{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px){
+    .tituloNovedadesIndex{
+        font-size: 12px;
+    }
+}
+
 .novedadesNota{
     color: rgb(255, 255, 255);
     padding-left: 20px;
+}
+
+@media (max-width: 992px){
+    .novedadesNota{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px){
+    .novedadesNota{
+        font-size: 9px;
+    }
 }
 
 .asideGeneral{
@@ -288,6 +372,15 @@ section article h3{
     background-color: white;
 }
 
+.tituloNewsletter{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.textoNewsletter{
+    font-size: 30px;
+}
+
 .botonNewsletter{
     margin-left: 5px;
     margin-right: 5px;
@@ -296,6 +389,9 @@ section article h3{
     
 }
 
+.paddingNewsletter{
+    padding-left: 20px;
+}
 
 
 
@@ -351,11 +447,14 @@ section article h3{
 .textoNoticia{
     color: whitesmoke;
     font-size: 30px;
+    background-color: rgba(94, 58, 58, 0.788);
 }
 
-.textoYoru{
-    color: white;
+.tituloNoticias{
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+
 
 
 
@@ -422,10 +521,20 @@ section article h3{
 
 .tituloConocenos{
     color: #f2cf63;
+    text-align: center;
+    font-size: 500%;
+    margin-bottom: 100px;
 }
 
 .textoConocenos{
     color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fotoConocenos{
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -441,7 +550,7 @@ section article h3{
     font-weight: lighter;
     font-size: 16px;
     background-color: white;
-    margin-bottom: 210px;
+    margin-bottom: 200px;
 }
 
 .textoFormulario{
@@ -449,4 +558,5 @@ section article h3{
     margin-bottom: 20px;
     color: #f2cf63;
     text-align: center;
+    text-decoration: underline;
 }

@@ -18,11 +18,11 @@
         
         <header class="header" class="row">
             <!-- <span> -->
-                <a href="index.html"><img src="Images/Mesa_de_ trabajo_3_copia_2.png" alt="Logo Valhalla Games" class="logo" class="col-lg-6 col-md-12 col-sm-12"></a> 
+                <a href="index.html"><img src="Images/Mesa_de_ trabajo_3_copia_2.png" alt="Logo Valhalla Games" class="logo" class="col-lg-3 col-md-12 col-sm-12 col-xs-12" class="img-fluid"></a> 
             <!-- </span> -->
             <span>
                 <nav class="barraNavFlex">
-                    <ul class="barraNav" class="col-lg-6 col-md-12 col-sm-12"> 
+                    <ul class="barraNav" class="col-lg-9 col-md-12 col-sm-12 col-xs-12"> 
                         
                         <li class="barraNav"><a href="Pages/novedades.html">Novedades</a></li>
                         <li class="barraNav"><a href="Pages/comunidad.html">Comunidad</a></li>
@@ -51,12 +51,12 @@
         
         <main>
             <!-- seccion Bienvenida -->
-            <section class="bienvenida" class="row"> <!--class="row"-->
-                <span class="col-lg-3 col-md-3 col-sm-12">
+            <section class="bienvenida" > <!--class="row"-->
+                <div class="col-lg-12 col-md-12 col-sm-12" class="seccionBienvenida">
                     <h2 class="tituloBienvenida">¡Entra!</h2>
                     <p class="textoBienvenida">Aquí encontrarás novedades de todo el mundo, compartirás experiencias con otros viajeros y podrás relajarte con la música de nuestros bardos. Disfruta y cuéntanos también tus aventuras... y descuida, aquí invita la casa</p>
-                </span>
-                <img src="Images/yingqian-pang-1-copy - copia.jpg" alt="Imagen taberna desde afuera" class="imagenBienvenida" class="img-fluid" class="col-lg-9 col-md-9 col-sm-12">
+                </div>
+                <!-- <img src="Images/yingqian-pang-1-copy - copia.jpg" alt="Imagen taberna desde afuera" class="imagenBienvenida" class="img-fluid" class="col-lg-9 col-md-9 col-sm-12"> -->
             </section>
 
             <!-- seccion Novedades -->
@@ -64,25 +64,25 @@
             <section class="seccionNovedades">
                 <h2 class="novedadesTitulo">Noticias</h2>
                 <p class="textoNovedades">Lee nuestro tablón de anuncios y escucha atentamente los rumores, entérate de todo lo que está ocurriendo <!-- </p> -->
-                <img src="images/journal.png" alt="Logo Diario" class="logoDiario" width="30px" height="30px">
+                <img src="Images/journal.png" alt="Logo Diario" class="logoDiario" width="30px" height="30px">
                 <div id="gridNovedades">
-                    <article class="novedades destacadoGrid" class="col-lg-12 col-md-12 col-sm-12">
-                        <h3>Back 4 Blood <span class="badge badge-primary">Destacado Semanal</span></h3>
+                    <article class="novedades destacadoGrid" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" class="img-fluid">
+                        <h3 class="tituloNovedadesIndex">Back 4 Blood <span class="badge badge-primary">Destacado Semanal</span></h3>
                         <p class="novedadesNota"> "Back 4 Blood": Sucesor de "Left 4 Dead"</p>
                     </article>
 
-                    <article class="novedades nota2Grid" class="col-lg-3 col-md-3 col-sm-3">
-                        <h3> Novedades en Valorant!</h3>
+                    <article class="novedades nota2Grid" class="col-lg-3 col-md-3 col-sm-1 col-xs-1" class="img-fluid">
+                        <h3 class="tituloNovedadesIndex"> Novedades en Valorant!</h3>
                         <p class="novedadesNota"> Nuevo Agente: Con la nueva temporada de Valorant se vendrá el nuevo agente</p>
                     </article>
 
-                    <article class="novedades nota3Grid" class="col-lg-3 col-md-3 col-sm-3">
-                        <h3> "The Last of Us: Part II" gana premio al Juego del Año 2020 en The Game Awards</h3>
+                    <article class="novedades nota3Grid" class="col-lg-3 col-md-3 col-sm-1 col-xs-1" class="img-fluid">
+                        <h3 class="tituloNovedadesIndex"> "The Last of Us: Part II" gana premio al Juego del Año 2020 en The Game Awards</h3>
                         <p class="novedadesNota"> TLOS es uno de los juegos más aclamados de los últimos tiempos </p>
                     </article>
 
-                    <article class="novedades nota4Grid" class="col-lg-3 col-md-3 col-sm-3">
-                        <h3> CS:GO DreamHack Open</h3>
+                    <article class="novedades nota4Grid" class="col-lg-3 col-md-3 col-sm-1 col-xs-1" class="img-fluid">
+                        <h3 class="tituloNovedadesIndex"> CS:GO DreamHack Open</h3>
                         <p class="novedadesNota"> Resumen del torneo </p>
                     </article>
                 </div>
@@ -130,24 +130,29 @@
             <!-- seccion Newsletter -->
 
             <section class="newsletter" class="container">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h2>Suscripción a Newsletter</h2>
-                    <p>Suscribite a nuestro Newsletter y mantenete actualizado</p>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="tituloNewsletter">Suscripción a Newsletter</h2>
+                    <p class="textoNewsletter">Suscribite a nuestro Newsletter y mantenete actualizado</p>
                 </div>
                 
                 <!--Formulario suscripción a Newsletter-->
-                <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="col-lg-3 col-md-8 col-sm-12">
                     <form action="">
-                        <label for="nombreApellido">Nombre</label>
-                        <input type="text"  placeholder="Ingresa tu nombre" id="nombreApellido">
-
-                        <label for="email">Email</label>
-                        <input type="text"  placeholder="Ingresa tu mail" id="email">
-
-                        <label for="suscripcionCompleta" class="fraseNewsletter">Deseo recibir automáticamente las novedades</label>
+                        <div class="form-group">
+                            <label for="nombreApellido" class="col-form-label paddingNewsletter">Nombre</label>
+                            <input type="text"  placeholder="Ingresa tu nombre" id="nombreApellido" class="form-control paddingNewsletter">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="paddingNewsletter">Email</label>
+                            <input type="text"  placeholder="Ingresa tu mail" id="email" class="form-control paddingNewsletter">
+                        </div>
+                        
+                        <label for="suscripcionCompleta" class="fraseNewsletter paddingNewsletter">Deseo recibir automáticamente las novedades</label>
                         <input type="checkbox" name="suscripcionCompleta" value="suscripcionCompleta" id="suscripcionCompleta" class="botonNewsletter">
+                        
 
-                        <button type="submit" class="btn btn-secondary">Suscribirme</button>
+                        <button type="submit" class="btn btn-warning">Suscribirme</button>
                     </form>
                 </div>
             
@@ -156,11 +161,11 @@
 
         <!-- footer -->
 
-        <footer class="footer" class="row" class="col-lg-12 col-md-12 col-sm-12">
+        <footer class="footer" class="row">
+            
+            <img src="Images/Mesa_de_trabajo_3.png" alt="Valhalla Games Logo" class="footerLogo" class="col-lg-6 col-md-12 col-sm-12 col-xs-12" class="img-fluid">
 
-            <img src="Images/Mesa_de_trabajo_3.png" alt="Valhalla Games Logo" class="footerLogo" class="col-lg-6 col-md-6 col-sm-6">
-        
-            <ul class="footerRedes" class="col-lg-6 col-md-6 col-sm-6">       <!--Colocar en los <p> los href para los links de las redes-->
+            <ul class="footerRedes" class="col-lg-6 col-md-12 col-sm-12 col-xs-12">       <!--Colocar en los <p> los href para los links de las redes-->
                 <li><img src="Images/iconfinder_twitch_3009563.png" alt="Logo Twitch" class="logosFooter" width="30px" height="30px"></li>
                 <li><p>Valhalla.gamesok</p></li>
                 <li><img src="Images/iconfinder_isntagram__social__media_icon_2986198.png" alt="Logo Instagram" class="logosFooter" width="30px" height="30px"></li>
