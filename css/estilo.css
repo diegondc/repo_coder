@@ -454,28 +454,34 @@ section article h3{
     height: 630px;
 }
 
+@media (max-width: 768px){
+    .articuloBorde{
+        height: 400px;
+    }
+}
+
 .back4blood{
     background-image: url(../Images/Back-4-Blood-image.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .yoru{
     background-image: url(../Images/yoru2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .lastofUs{
     background-image: url(../Images/lastofusgameawards.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .csGO{
     background-image: url(../Images/DreamHack-vuelve-Espana-partida-doble_1198690133_121697_1440x600.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .tituloNovedades{
@@ -496,6 +502,11 @@ section article h3{
     background-color: rgba(94, 58, 58, 0.788);
 }
 
+@media (max-width: 768px){
+    .textoNoticia{
+        font-size: 10px;
+    }
+}
 .tituloNoticias{
     background-color: rgba(0, 0, 0, 0.5);
 }
